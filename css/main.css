@@ -54,7 +54,6 @@ padding: 0 30px;
 }
 
 
-
 .top-block {
   display: flex;
   flex-direction: column;
@@ -85,6 +84,29 @@ padding: 0 30px;
 }
 
 .block__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+
+.block__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/top-block.jpg")
+  center
+  no-repeat;
+  background-size: cover;
+}
+
+.block__request {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,11 +150,11 @@ padding: 0 30px;
   .header__logo {
     font-size: 30px;
     font-weight: 700;
-    color: #ffffff
+    color: #00e0d0
   }
 
   .header__section2 .header__logo {
-    color: black;
+    color: #00e0d0;
   }
 
   .nav {

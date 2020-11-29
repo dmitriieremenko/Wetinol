@@ -12,6 +12,24 @@ if(index == 2 && direction =='up'){
 	console.log("сработало")
 }
 
+if(index == 2 && direction =='down'){
+	document.querySelector(".header") .classList.remove("header__section2")
+	console.log("сработало")
+
+}
+
+if(index == 3 && direction =='up'){
+	document.querySelector(".header") .classList.add("header__section2")
+	console.log("сработало")
+
+}
+
+
+if(index == 3 && direction =='down'){
+	document.querySelector(".header") .classList.remove("header__section2")
+	console.log("сработало")
+
+}
 	}});
 
 });
