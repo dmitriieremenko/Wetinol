@@ -1,3 +1,8 @@
+#pp-nav li .active span, .pp-slidesNav .active span {
+  background:#00e0d0;
+  border-color: #00e0d0!important ;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -6,7 +11,7 @@ body {
   color: #333333;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
 }
 *,
@@ -20,6 +25,35 @@ h1, h2 {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.container__about {
+  display: flex;
+}
+
+.container__item {
+flex-basis: 0;
+flex-grow: 1;
+padding: 0 30px;
+}
+
+.container__item .title {
+  font-size: 30px;
+}
+
+.container__item .text {
+  font-size: 15px;
+}
+
+.container__item .about__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.container__item .about__icon path {
+ fill: #00e0d0;
+}
+
+
 
 .top-block {
   display: flex;
