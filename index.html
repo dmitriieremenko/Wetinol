@@ -4,28 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wetinol</title>
-    <link rel="stylesheet" href="fullpage.css">
+    <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.pagepiling.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 
 <body>
 
+<header class="header">
 
-    <div id="fullpage">
-        <div class="section">Section 1</div>
-        <div class="section">
-            <div class="slide" data-anchor="slide1">Slide 2.1</div>
-            <div class="slide" data-anchor="slide2">Slide 2.2</div>
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                Wetinol
+            </div>
+            <nav class="nav">
+                <a class="nav__link" href="#">Home</a>
+                <a class="nav__link" href="#">About</a>
+                <a class="nav__link" href="#">Services</a>
+                <a class="nav__link" href="#">Request Service</a>
+                <a class="nav__link" href="#">Terms</a>
+                <a class="nav__link" href="#">Privacy</a>
+            </nav>
         </div>
-        <div class="section">Section 3</div>
-        <div class="section">Section 4</div>
-    </div>  
+    </div>
 
+
+</header>
+
+<div id="pagepiling">
+    <div class="section">
+<div class="top-block">
+    <div class="container">
+        <h1 class="top-block__title">
+            WETINOL GROUP LIMITED
+        </h1>
+        <h2 class="top-block__suptitle">Best consulting to serve your
+            business needs</h2>
+    </div>
+</div>
+</div>
+<div class="section">Section 2</div>
+</div>
 
     <!-- подключаю джс файлы -->
-    <script src="fullpage.js"></script>
-    <script src="index.js"></script>
+    <script src="js/jquery.pagepiling.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 
