@@ -106,15 +106,6 @@ padding: 0 30px;
   background-size: cover;
 }
 
-.block__request {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background-color: #ffffff;
-  background-size: cover;
-}
 
 .section {
     text-align:center;
