@@ -26,6 +26,12 @@ if(index == 3 && direction =='up'){
 
 
 if(index == 3 && direction =='down'){
+	document.querySelector(".header") .classList.add("header__section2")
+	console.log("сработало")
+
+}
+
+if(index == 4 && direction =='up'){
 	document.querySelector(".header") .classList.remove("header__section2")
 	console.log("сработало")
 
