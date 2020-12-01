@@ -1,3 +1,16 @@
+$(function(){
+
+	$(document).on('focus', '.input-text-wrap input, .input-text-wrap textarea', ({target})=>{
+	  $(target).closest('.input-text-wrap').addClass('active');
+	});
+	$(document).on('blur', '.input-text-wrap input, .input-text-wrap textarea', ({target})=>{
+	  if(!target.value.length)
+	  $(target).closest('.input-text-wrap').removeClass('active');
+	});
+  
+  })
+
+
 $(document).ready(function() {
 	$('#pagepiling').pagepiling( { 		
 		onLeave: function(index, nextIndex, direction){
