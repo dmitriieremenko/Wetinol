@@ -30,6 +30,29 @@ h1, h2, h3 {
   display: flex;
 }
 
+.container__services {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.container__item__services {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 15px 30px; 
+}
+
+.container__item__services .text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.container__item__services .title {
+  color: #ffffff;
+  font-size: 16px;
+}
+
 .container__item {
 flex-basis: 0;
 flex-grow: 1;
@@ -44,14 +67,17 @@ padding: 0 30px;
   font-size: 15px;
 }
 
-.container__item .about__icon {
+.about__icon {
   width: 70px;
   height: 70px;
 }
 
-.container__item .about__icon path {
+.about__icon path {
  fill: #00e0d0;
 }
+
+
+/* Стили самого первого слайда */
 
 
 .top-block {
@@ -83,6 +109,13 @@ padding: 0 30px;
   text-align: center;
 }
 
+
+
+
+/* Стили второго слайда */
+
+
+
 .block__about {
   display: flex;
   flex-direction: column;
@@ -111,6 +144,9 @@ padding: 0 30px;
     text-align:center;
     font-size: 3em;
   }
+
+
+  /* Стили header */
 
   .header {
     padding-top: 30px;
@@ -147,6 +183,11 @@ padding: 0 30px;
   .header__section2 .header__logo {
     color: #00e0d0;
   }
+
+
+
+  /* Стили менюшки сверху */
+
 
   .nav {
     font-size: 14px;
