@@ -40,12 +40,12 @@ h1, h2, h3 {
   flex-basis: 0;
   flex-grow: 1;
   flex-basis: 25%;
-  padding: 15px 30px; 
+  padding: 5px 30px; 
 }
 
 .container__item__services .text {
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .container__item__services .title {
