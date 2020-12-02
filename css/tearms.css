@@ -66,3 +66,12 @@
   body.show {
     background-color: #282828;
   }
+
+
+.section {
+    padding: 80px 0;
+}
+
+.section__header {
+    margin-bottom: 40px ;
+}
