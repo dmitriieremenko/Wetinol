@@ -222,7 +222,6 @@ padding: 0 30px;
   padding: 0 15px; 
 }
 
-
 .input-text-wrap {
   max-width: 25.5rem;
   position: relative;
@@ -344,6 +343,7 @@ input.submit {
 input.submit:hover {
   background: rgba(0, 94, 184, 0.8);
 }
+
 
 
   /* Стили менюшки сверху */
