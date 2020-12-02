@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 	$('#pagepiling').pagepiling( { 		
 		onLeave: function(index, nextIndex, direction){
