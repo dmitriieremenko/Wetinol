@@ -78,6 +78,30 @@
   font-size: 20px;
 }
 
+
+.footer__copyright {
+  padding: 20px 0;
+
+  background-color: #3d2f63;
+}
+
+.copyright {
+  padding: 20px 0;
+  background-color: #3d2f63;
+}
+
+.copyright__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.copyright__text span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 /* .section__header__flex {
   display: flex;
   flex-basis: 0;
