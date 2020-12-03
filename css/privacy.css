@@ -1,0 +1,15 @@
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #3d2f63;
+  }
+
+.block__privacy {
+    background-color: #ffffff;
+    margin-top: 140px ;
+}
