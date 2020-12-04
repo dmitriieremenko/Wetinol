@@ -40,3 +40,4 @@ if(index == 4 && direction =='up'){
 	}});
 
 });
+
